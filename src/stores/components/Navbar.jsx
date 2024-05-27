@@ -1,7 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useCart } from '../context/CartContext'
 
 export const Navbar = () => {
+
+  const { cartItems } = useCart()
+
   return (
     <div>
     <div className="navSection">
@@ -14,7 +18,11 @@ export const Navbar = () => {
         <div className="user">
             <div className="user-detail">SignIN/SignUp</div>
             <Link to='/cart'>
-            <div className="cart">Cart</div>
+            <div className="cart">Cart
+              <span>
+                {cartItems.length}
+              </span>
+            </div>
             </Link>
         </div>
     </div>
