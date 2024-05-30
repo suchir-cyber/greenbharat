@@ -19,7 +19,7 @@ export const Navbar = () => {
         {/* <div className="search">
             <input type="text" placeholder="Search..." size="50" />
         </div> */}
-        <div className="user">
+            <div className="user">
             <div className="user-detail">SignIN/SignUp</div>
             <Link to='/cart'>
             <div className="cart">Cart
