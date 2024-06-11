@@ -10,7 +10,7 @@ export const Navbar = () => {
     <div>
     <div className="navSection">
         <div className="title">
-            <h2>E-Mart</h2>
+            <h2>Green Bharat</h2>
         </div>
         <div class="search-container">
         <input type="text" class="search-input" placeholder="Search..." />
@@ -20,7 +20,7 @@ export const Navbar = () => {
             <input type="text" placeholder="Search..." size="50" />
         </div> */}
             <div className="user">
-            <div className="user-detail">SignIN/SignUp</div>
+            <div className="user-detail">SignUp</div>
             <Link to='/cart'>
             <div className="cart">Cart
               <span>
